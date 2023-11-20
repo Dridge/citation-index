@@ -29,7 +29,7 @@ public class DataConverterTest {
         Exception thrown = assertThrows(InvalidParameterException.class, () -> {
             underTest.convertToIntegerList(stringInputs);
         });
-        assertEquals("ERROR, one citation parameter is not within expected range 0-99.", thrown.getMessage());
+        assertEquals("ERROR, one citation parameter is not within expected range must be greater than 0.", thrown.getMessage());
     }
 
     @Test

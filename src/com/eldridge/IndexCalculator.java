@@ -5,6 +5,7 @@ import java.util.List;
 
 public class IndexCalculator {
     public int calculateIndex(List<Integer> citations) {
+
         int numberOfEntries = citations.size();
         // Sort to infer how many papers match that citation count or above
         Collections.sort(citations);

@@ -34,3 +34,9 @@ than five papers, and five of their papers have been cited five times or more.
 Conversely, if they had only published the first four papers: A, B, C, and D. Then their h-index
 would be two. Due to the papers: B, C, and D. Five is greater than the total number of
 published papers, so it is excluded, leaving only the two citations from paper C being applicable.
+
+## Future improvements
+
+- memory constraints?
+- fastest response?
+- multithreading?
